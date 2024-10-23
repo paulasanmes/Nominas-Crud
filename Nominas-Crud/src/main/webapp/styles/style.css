@@ -1,0 +1,113 @@
+/* styles/style.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h2 {
+    font-weight: 700; /* Negrita para los títulos */
+    color: #2c3e50; /* Color oscuro para los títulos */
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+table {
+    width: 100%; /* Tabla que ocupa todo el ancho */
+    border-collapse: collapse; /* Sin espacios entre bordes */
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left; /* Alinear texto a la izquierda */
+    border: 1px solid #ddd; /* Bordes suaves */
+}
+
+th {
+    background-color: #2c3e50; /* Color de fondo de los encabezados */
+    color: white; /* Texto blanco */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Color alternativo para filas */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Color al pasar el ratón */
+}
+
+input[type="text"],
+input[type="number"],
+select,
+input[type="submit"],
+button {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Bordes suaves para los inputs */
+    border-radius: 4px; /* Bordes redondeados */
+    width: calc(40% - 22px); /* Ancho del input */
+    box-sizing: border-box; /* Para incluir el padding y el borde en el ancho total */
+}
+
+input[type="submit"],
+button {
+    background-color: #2980b9; /* Color de fondo de botones */
+    color: white; /* Texto blanco en botones */
+    border: none; /* Sin bordes */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s; /* Efecto de transición */
+}
+
+input[type="submit"]:hover,
+button:hover {
+    background-color: #3498db; /* Color al pasar el ratón por encima */
+}
+
+a {
+    text-decoration: none; /* Sin subrayado en enlaces */
+    color: #2980b9; /* Color de los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+button a {
+    color: white; /* Texto blanco en los enlaces dentro de botones */
+}
+
+div {
+    margin-bottom: 15px; /* Margen inferior para mensajes */
+}
+
+/* Estilo para el botón "Restablecer" */
+
+.button-restablecer {
+    background-color: #2980b9; /* Color de fondo del botón (rojo) */
+    color: white; /* Color del texto */
+    border: none; /* Sin bordes */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cursor de puntero */
+    transition: background-color 0.3s; /* Efecto de transición */
+    font-family: 'Arial', sans-serif; /* Fuente del botón */
+    font-size: 1em; /* Tamaño de fuente */
+    margin: 5px 0; /* Margen vertical */
+}
+
+.button-restablecer:hover {
+    background-color: #c0392b; /* Color al pasar el ratón (rojo más oscuro) */
+}
